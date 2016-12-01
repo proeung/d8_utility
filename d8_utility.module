@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * The main file for the module.
+ *
+ */
+
+use Drupal\Core\Url;
+
+function d8_utility_preprocess_html(&$variables) {
+  if (!\Drupal::currentUser()->isAnonymous()) {
+    $variables['#attached']['library'][] = 'd8_utility/d8_utility.d8_utility.admin';
+  }
+}

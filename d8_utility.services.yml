@@ -1,0 +1,6 @@
+services:
+  #An extension to render image styles into Twig
+  d8_utility.twig.images:
+    class: Drupal\d8_utility\TwigExtension\Images
+    tags:
+      - { name: twig.extension }

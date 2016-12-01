@@ -1,0 +1,15 @@
+d8_utility.module:
+  version: 1.0
+  js:
+    js/d8_utility.module.js: {}
+  css:
+    theme:
+      css/d8_utility.module.css: {}
+  dependencies:
+    - core/jquery.cookie
+    - core/jquery.once
+d8_utility.admin:
+  version: 1.0
+  css:
+    theme:
+      css/d8_utility.admin.css: {}

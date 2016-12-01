@@ -1,0 +1,10 @@
+name: Drupal 8 Utility
+type: module
+description: 'D8 utility module handles small theme implementations, custom classes, blocks, and etc.'
+package: Utility
+version: '8.x-1.0'
+core: '8.x'
+
+libraries:
+  - d8_utility/d8_utility.module
+  - d8_utility/d8_utility.admin
