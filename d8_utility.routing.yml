@@ -1,0 +1,12 @@
+d8_utility.view_all_display_modes:
+  path: '/node/{node}/display-modes'
+  defaults:
+    _controller: 'Drupal\d8_utility\Controller\ViewAllDisplayModes::viewAllDisplayModesTab'
+    _title: 'Showcase all display modes for a node'
+  requirements:
+    node: \d+
+    _permission: 'access administration pages'
+  options:
+    parameters:
+      node:
+        type: entity:node
