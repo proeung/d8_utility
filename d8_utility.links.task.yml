@@ -2,3 +2,4 @@ d8_utility.view_all_display_modes:
   title: 'Display Modes'
   route_name: d8_utility.view_all_display_modes
   base_route: entity.node.canonical
+  weight: 100
